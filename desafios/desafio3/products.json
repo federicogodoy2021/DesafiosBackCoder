@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "iPhone 13",
+      "description": "El último modelo de iPhone con pantalla Super Retina XDR y chip A15 Bionic.",
+      "price": 999,
+      "thumbnail": "iphone13.jpg",
+      "code": "IPHN13",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro 2021",
+      "description": "Potente computadora portátil con procesador M1 y pantalla Retina de 13 pulgadas.",
+      "price": 1999,
+      "thumbnail": "macbookpro2021.jpg",
+      "code": "MBP21",
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "title": "iPad Air",
+      "description": "Tablet con pantalla Liquid Retina de 10.9 pulgadas y compatibilidad con Apple Pencil.",
+      "price": 599,
+      "thumbnail": "ipadair.jpg",
+      "code": "IPDAIR",
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "title": "Apple Watch Series 7",
+      "description": "Reloj inteligente con pantalla siempre encendida y detección de caídas.",
+      "price": 399,
+      "thumbnail": "applewatch7.jpg",
+      "code": "AW7",
+      "stock": 40
+    },
+    {
+      "id": 5,
+      "title": "AirPods Pro",
+      "description": "Auriculares inalámbricos con cancelación de ruido y resistencia al agua.",
+      "price": 249,
+      "thumbnail": "airpodspro.jpg",
+      "code": "APPRO",
+      "stock": 60
+    },
+    {
+      "id": 6,
+      "title": "iMac 24 pulgadas",
+      "description": "Computadora de escritorio con pantalla Retina 4.5K y chip M1.",
+      "price": 1299,
+      "thumbnail": "imac24.jpg",
+      "code": "IMAC24",
+      "stock": 25
+    },
+    {
+      "id": 7,
+      "title": "Mac mini",
+      "description": "Mini computadora de escritorio con procesador M1 y almacenamiento SSD.",
+      "price": 699,
+      "thumbnail": "macmini.jpg",
+      "code": "MMINI",
+      "stock": 15
+    },
+    {
+      "id": 8,
+      "title": "iPad Pro",
+      "description": "Tablet con pantalla Liquid Retina XDR de 12.9 pulgadas y chip M1.",
+      "price": 1099,
+      "thumbnail": "ipadpro.jpg",
+      "code": "IPDPRO",
+      "stock": 35
+    },
+    {
+      "id": 9,
+      "title": "Apple TV 4K",
+      "description": "Reproductor multimedia con calidad de video 4K HDR y Dolby Atmos.",
+      "price": 179,
+      "thumbnail": "appletv4k.jpg",
+      "code": "ATV4K",
+      "stock": 10
+    },
+    {
+      "id": 10,
+      "title": "HomePod mini",
+      "description": "Altavoz inteligente con asistente Siri y sonido de alta calidad.",
+      "price": 99,
+      "thumbnail": "homepodmini.jpg",
+      "code": "HPMINI",
+      "stock": 50
+    }
+  ]
+  
