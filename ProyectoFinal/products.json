@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 12",
+    "description": "iPhone 12",
+    "code": "APPLE001",
+    "price": 999,
+    "status": true,
+    "stock": 100,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto1.jpg",
+      "foto2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "MacBook Pro",
+    "description": "MacBook Pro",
+    "code": "APPLE002",
+    "price": 1999,
+    "status": true,
+    "stock": 50,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto3.jpg",
+      "foto4.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "iPad Pro",
+    "description": "iPad Pro",
+    "code": "APPLE004",
+    "price": 100030,
+    "status": true,
+    "stock": 12320,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto7.jpg",
+      "foto8.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Apple Watch Series 6",
+    "description": "Apple Watch Series 6",
+    "code": "APPLE005",
+    "price": 399,
+    "status": true,
+    "stock": 150,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto9.jpg",
+      "foto10.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "iMac",
+    "description": "iMac",
+    "code": "APPLE006",
+    "price": 1299,
+    "status": true,
+    "stock": 30,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto11.jpg",
+      "foto12.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Apple TV 4K",
+    "description": "Apple TV 4K",
+    "code": "APPLE007",
+    "price": 179,
+    "status": true,
+    "stock": 100,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto13.jpg",
+      "foto14.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Nuevo producto Apple",
+    "description": "Producto Apple",
+    "code": "APPLE1000",
+    "price": 230,
+    "status": true,
+    "stock": 130,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto15.jpg",
+      "foto16.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Nuevo producto Apple",
+    "description": "Producto Apple",
+    "code": "APPLE1000",
+    "price": 230,
+    "stock": 130,
+    "category": "Electronics",
+    "thumbnails": [
+      "foto15.jpg",
+      "foto16.jpg"
+    ]
+  }
+]
