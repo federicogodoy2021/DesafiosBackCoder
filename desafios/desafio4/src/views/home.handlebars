@@ -1,0 +1,10 @@
+{{> header}}
+
+<h2>Todos los productos</h2>
+<ul>
+  {{#each products}}
+    <li>{{name}} - ${{price}}</li>
+  {{/each}}
+</ul>
+
+{{> footer}}

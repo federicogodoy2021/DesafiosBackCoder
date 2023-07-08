@@ -1,6 +1,6 @@
-const express = require('express');
-const productRoutes = require('./productRoutes');
-const cartRoutes = require('./cartRoutes');
+import express from 'express';
+import productRoutes from './productRoutes.js';
+import cartRoutes from './cartRoutes.js';
 
 const app = express();
 const port = 8080;
