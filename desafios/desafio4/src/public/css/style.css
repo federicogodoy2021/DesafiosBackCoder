@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #product-list {
+    list-style-type: none;
+  }
+  
+  #product-form {
+    margin-top: 20px;
+  }
+  
+  #product-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #product-form input[type="submit"] {
+    padding: 5px 10px;
+  }
+  

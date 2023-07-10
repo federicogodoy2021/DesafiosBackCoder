@@ -1,31 +1,41 @@
-const socket = io();
+document.addEventListener('DOMContentLoaded', () => {
+  const socket = io();
 
-socket.on('products', (products) => {
-  const productList = document.getElementById('product-list');
-  productList.innerHTML = '';
+  // Obtener la lista de productos y mostrarla en la página
+  socket.emit('products', (products) => {
+    const productList = document.getElementById('product-list');
+    productList.innerHTML = '';
 
-  products.forEach((product) => {
-    const listItem = document.createElement('li');
-    listItem.innerText = `${product.name} - $${product.price}`;
-    productList.appendChild(listItem);
+    products.forEach((product) => {
+      const li = document.createElement('li');
+      li.textContent = product.title;
+      productList.appendChild(li);
+    });
   });
-});
 
-const addProductForm = document.getElementById('add-product-form');
-const productNameInput = document.getElementById('product-name');
-const productPriceInput = document.getElementById('product-price');
+  // Escuchar el evento de actualizar la lista de productos
+  socket.on('products', (products) => {
+    const productList = document.getElementById('product-list');
+    productList.innerHTML = '';
 
-addProductForm.addEventListener('submit', (event) => {
-  event.preventDefault();
+    products.forEach((product) => {
+      const li = document.createElement('li');
+      li.textContent = product.title;
+      productList.appendChild(li);
+    });
+  });
 
-  const productName = productNameInput.value.trim();
-  const productPrice = parseFloat(productPriceInput.value.trim());
+  // Manejar el envío del formulario de agregar producto
+  const productForm = document.getElementById('product-form');
+  const productTitleInput = document.getElementById('product-title');
 
-  if (productName && productPrice) {
-    const newProduct = { name: productName, price: productPrice };
-    socket.emit('addProduct', newProduct);
+  productForm.addEventListener('submit', (event) => {
+    event.preventDefault();
 
-    productNameInput.value = '';
-    productPriceInput.value = '';
-  }
+    const title = productTitleInput.value.trim();
+    if (title !== '') {
+      socket.emit('addProduct', { title });
+      productTitleInput.value = '';
+    }
+  });
 });
