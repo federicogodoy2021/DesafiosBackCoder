@@ -98,19 +98,6 @@
     ]
   },
   {
-    "id": 9,
-    "title": "Nuevo producto Apple",
-    "description": "Producto Apple",
-    "code": "APPLE1000",
-    "price": 230,
-    "stock": 130,
-    "category": "Electronics",
-    "thumbnails": [
-      "foto15.jpg",
-      "foto16.jpg"
-    ]
-  },
-  {
     "id": 10,
     "title": "Celular"
   }

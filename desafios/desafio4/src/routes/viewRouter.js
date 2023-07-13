@@ -31,10 +31,15 @@ router.delete('/:pid', async (req, res) => {
 
 
 export default (io) => {
+  
   // Configurar el socket.io
-  io.on('connection', (socket) => {
-    console.log('Cliente conectado');
+    io.on('connection', (socket) => {
+    console.log('Cliente conectado!', socket.id);
 
+    socket.on('disconnect', ()=>{
+      console.log('Cliente desconectado!', socket.id);
+  })
+  
     // Emitir la lista de productos al cliente conectado
     socket.emit('products', async () => {
       const products = await productManager.getAllProducts();
