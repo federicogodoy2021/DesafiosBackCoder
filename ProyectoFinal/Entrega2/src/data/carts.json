@@ -1,0 +1,36 @@
+[
+  {
+    "buyer": "Carlos",
+    "id": "cart1",
+    "products": [
+      {
+        "product": "2",
+        "quantity": 2
+      },
+      {
+        "product": "5",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "buyer": "Pedro",
+    "id": "cart2",
+    "products": [
+      {
+        "product": "3",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "buyer": "Luis",
+    "id": "cart3",
+    "products": []
+  },
+  {
+    "buyer": "Tito",
+    "id": "cart4",
+    "products": []
+  }
+]

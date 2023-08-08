@@ -1,0 +1,1272 @@
+[
+    {
+      "title": "iPhone 11",
+      "description": "iPhone 11",
+      "code": "APPLE0999",
+      "price": 1000,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto50.jpg", "foto51.jpg"]
+    },
+    {
+      "title": "iPhone 12",
+      "description": "iPhone 12",
+      "code": "APPLE0998",
+      "price": 1100,
+      "status": true,
+      "stock": 15,
+      "category": "Electronics",
+      "thumbnails": ["foto52.jpg", "foto53.jpg"]
+    },
+    {
+      "title": "iPhone 13",
+      "description": "iPhone 13",
+      "code": "APPLE0997",
+      "price": 1200,
+      "status": true,
+      "stock": 20,
+      "category": "Electronics",
+      "thumbnails": ["foto54.jpg", "foto55.jpg"]
+    },
+    {
+      "title": "iPad Air",
+      "description": "iPad Air",
+      "code": "APPLE0888",
+      "price": 800,
+      "status": true,
+      "stock": 8,
+      "category": "Electronics",
+      "thumbnails": ["foto56.jpg", "foto57.jpg"]
+    },
+    {
+      "title": "MacBook Pro",
+      "description": "MacBook Pro",
+      "code": "APPLE0777",
+      "price": 2000,
+      "status": true,
+      "stock": 5,
+      "category": "Electronics",
+      "thumbnails": ["foto148.jpg", "foto149.jpg"]
+    },
+    {
+      "title": "AirPods Pro",
+      "description": "AirPods Pro",
+      "code": "APPLE0666",
+      "price": 250,
+      "status": true,
+      "stock": 50,
+      "category": "Electronics",
+      "thumbnails": ["foto150.jpg", "foto151.jpg"]
+    },
+    {
+      "title": "iPhone SE",
+      "description": "iPhone SE",
+      "code": "APPLE0555",
+      "price": 600,
+      "status": true,
+      "stock": 12,
+      "category": "Electronics",
+      "thumbnails": ["foto58.jpg", "foto59.jpg"]
+    },
+    {
+      "title": "iPad Pro",
+      "description": "iPad Pro",
+      "code": "APPLE0444",
+      "price": 1200,
+      "status": true,
+      "stock": 7,
+      "category": "Electronics",
+      "thumbnails": ["foto60.jpg", "foto61.jpg"]
+    },
+    {
+      "title": "MacBook Air",
+      "description": "MacBook Air",
+      "code": "APPLE0333",
+      "price": 1500,
+      "status": true,
+      "stock": 9,
+      "category": "Electronics",
+      "thumbnails": ["foto62.jpg", "foto63.jpg"]
+    },
+    {
+      "title": "iMac",
+      "description": "iMac",
+      "code": "APPLE0222",
+      "price": 1800,
+      "status": true,
+      "stock": 6,
+      "category": "Electronics",
+      "thumbnails": ["foto64.jpg", "foto65.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 6",
+      "description": "Apple Watch Series 6",
+      "code": "APPLE0111",
+      "price": 350,
+      "status": true,
+      "stock": 18,
+      "category": "Electronics",
+      "thumbnails": ["foto66.jpg", "foto67.jpg"]
+    },
+    {
+      "title": "iPhone XR",
+      "description": "iPhone XR",
+      "code": "APPLE0000",
+      "price": 900,
+      "status": true,
+      "stock": 11,
+      "category": "Electronics",
+      "thumbnails": ["foto68.jpg", "foto69.jpg"]
+    },
+    {
+      "title": "iPad Mini",
+      "description": "iPad Mini",
+      "code": "APPLE0101",
+      "price": 500,
+      "status": true,
+      "stock": 16,
+      "category": "Electronics",
+      "thumbnails": ["foto70.jpg", "foto71.jpg"]
+    },
+    {
+      "title": "Mac Pro",
+      "description": "Mac Pro",
+      "code": "APPLE0202",
+      "price": 3000,
+      "status": true,
+      "stock": 3,
+      "category": "Electronics",
+      "thumbnails": ["foto72.jpg", "foto73.jpg"]
+    },
+    {
+      "title": "Apple Pencil 2nd Gen",
+      "description": "Apple Pencil 2nd Gen",
+      "code": "APPLE0303",
+      "price": 120,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto74.jpg", "foto75.jpg"]
+    },
+    {
+      "title": "iPhone X",
+      "description": "iPhone X",
+      "code": "APPLE0404",
+      "price": 800,
+      "status": true,
+      "stock": 14,
+      "category": "Electronics",
+      "thumbnails": ["foto76.jpg", "foto77.jpg"]
+    },
+    {
+      "title": "iPod Touch",
+      "description": "iPod Touch",
+      "code": "APPLE0505",
+      "price": 300,
+      "status": true,
+      "stock": 40,
+      "category": "Electronics",
+      "thumbnails": ["foto78.jpg", "foto79.jpg"]
+    },
+    {
+      "title": "Apple TV 4K",
+      "description": "Apple TV 4K",
+      "code": "APPLE0606",
+      "price": 200,
+      "status": true,
+      "stock": 35,
+      "category": "Electronics",
+      "thumbnails": ["foto80.jpg", "foto81.jpg"]
+    },
+    {
+      "title": "Magic Keyboard",
+      "description": "Magic Keyboard",
+      "code": "APPLE0707",
+      "price": 150,
+      "status": true,
+      "stock": 60,
+      "category": "Accessories",
+      "thumbnails": ["foto82.jpg", "foto83.jpg"]
+    },
+    {
+      "title": "iPhone 8",
+      "description": "iPhone 8",
+      "code": "APPLE0808",
+      "price": 700,
+      "status": true,
+      "stock": 13,
+      "category": "Electronics",
+      "thumbnails": ["foto84.jpg", "foto85.jpg"]
+    },
+    {
+      "title": "Apple Watch SE",
+      "description": "Apple Watch SE",
+      "code": "APPLE0909",
+      "price": 300,
+      "status": true,
+      "stock": 22,
+      "category": "Electronics",
+      "thumbnails": ["foto86.jpg", "foto87.jpg"]
+    },
+    {
+      "title": "Mac Mini",
+      "description": "Mac Mini",
+      "code": "APPLE0012",
+      "price": 700,
+      "status": true,
+      "stock": 15,
+      "category": "Electronics",
+      "thumbnails": ["foto180.jpg", "foto181.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 7",
+      "description": "Apple Watch Series 7",
+      "code": "APPLE0007",
+      "price": 400,
+      "status": true,
+      "stock": 25,
+      "category": "Electronics",
+      "thumbnails": ["foto182.jpg", "foto183.jpg"]
+    },
+    {
+      "title": "MacBook",
+      "description": "MacBook",
+      "code": "APPLE0102",
+      "price": 1800,
+      "status": true,
+      "stock": 5,
+      "category": "Electronics",
+      "thumbnails": ["foto88.jpg", "foto89.jpg"]
+    },
+    {
+      "title": "Apple TV HD",
+      "description": "Apple TV HD",
+      "code": "APPLE0203",
+      "price": 150,
+      "status": true,
+      "stock": 30,
+      "category": "Electronics",
+      "thumbnails": ["foto90.jpg", "foto91.jpg"]
+    },
+    {
+      "title": "Magic Mouse 2",
+      "description": "Magic Mouse 2",
+      "code": "APPLE0304",
+      "price": 100,
+      "status": true,
+      "stock": 50,
+      "category": "Accessories",
+      "thumbnails": ["foto92.jpg", "foto93.jpg"]
+    },
+    {
+      "title": "iPhone 7",
+      "description": "iPhone 7",
+      "code": "APPLE0405",
+      "price": 600,
+      "status": true,
+      "stock": 18,
+      "category": "Electronics",
+      "thumbnails": ["foto94.jpg", "foto95.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 5",
+      "description": "Apple Watch Series 5",
+      "code": "APPLE0506",
+      "price": 320,
+      "status": true,
+      "stock": 25,
+      "category": "Electronics",
+      "thumbnails": ["foto96.jpg", "foto97.jpg"]
+    },
+    {
+      "title": "iPad",
+      "description": "iPad",
+      "code": "APPLE0607",
+      "price": 600,
+      "status": true,
+      "stock": 20,
+      "category": "Electronics",
+      "thumbnails": ["foto98.jpg", "foto99.jpg"]
+    },
+    {
+      "title": "AirPods 3rd Gen",
+      "description": "AirPods 3rd Gen",
+      "code": "APPLE0708",
+      "price": 280,
+      "status": true,
+      "stock": 40,
+      "category": "Electronics",
+      "thumbnails": ["foto100.jpg", "foto101.jpg"]
+    },
+    {
+      "title": "Apple Pencil 1st Gen",
+      "description": "Apple Pencil 1st Gen",
+      "code": "APPLE0809",
+      "price": 100,
+      "status": true,
+      "stock": 35,
+      "category": "Accessories",
+      "thumbnails": ["foto102.jpg", "foto103.jpg"]
+    },
+    {
+      "title": "iPhone 6s",
+      "description": "iPhone 6s",
+      "code": "APPLE0910",
+      "price": 500,
+      "status": true,
+      "stock": 12,
+      "category": "Electronics",
+      "thumbnails": ["foto104.jpg", "foto105.jpg"]
+    },
+    {
+      "title": "iMac Pro",
+      "description": "iMac Pro",
+      "code": "APPLE0103",
+      "price": 3500,
+      "status": true,
+      "stock": 4,
+      "category": "Electronics",
+      "thumbnails": ["foto106.jpg", "foto107.jpg"]
+    },
+    {
+      "title": "Apple TV Remote",
+      "description": "Apple TV Remote",
+      "code": "APPLE0204",
+      "price": 40,
+      "status": true,
+      "stock": 60,
+      "category": "Accessories",
+      "thumbnails": ["foto108.jpg", "foto109.jpg"]
+    },
+    {
+      "title": "iPad Pro 10.5",
+      "description": "iPad Pro 10.5",
+      "code": "APPLE0305",
+      "price": 900,
+      "status": true,
+      "stock": 15,
+      "category": "Electronics",
+      "thumbnails": ["foto110.jpg", "foto111.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 4",
+      "description": "Apple Watch Series 4",
+      "code": "APPLE0406",
+      "price": 280,
+      "status": true,
+      "stock": 25,
+      "category": "Electronics",
+      "thumbnails": ["foto112.jpg", "foto113.jpg"]
+    },
+    {
+      "title": "MacBook Pro 16-inch",
+      "description": "MacBook Pro 16-inch",
+      "code": "APPLE0507",
+      "price": 2500,
+      "status": true,
+      "stock": 7,
+      "category": "Electronics",
+      "thumbnails": ["foto114.jpg", "foto115.jpg"]
+    },
+    {
+      "title": "AirPods 2nd Gen",
+      "description": "AirPods 2nd Gen",
+      "code": "APPLE0608",
+      "price": 200,
+      "status": true,
+      "stock": 50,
+      "category": "Electronics",
+      "thumbnails": ["foto116.jpg", "foto117.jpg"]
+    },
+    {
+      "title": "Magic Trackpad 2",
+      "description": "Magic Trackpad 2",
+      "code": "APPLE0709",
+      "price": 120,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto118.jpg", "foto119.jpg"]
+    },
+    {
+      "title": "iPhone 6",
+      "description": "iPhone 6",
+      "code": "APPLE0810",
+      "price": 400,
+      "status": true,
+      "stock": 14,
+      "category": "Electronics",
+      "thumbnails": ["foto120.jpg", "foto121.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 3",
+      "description": "Apple Watch Series 3",
+      "code": "APPLE0911",
+      "price": 180,
+      "status": true,
+      "stock": 40,
+      "category": "Electronics",
+      "thumbnails": ["foto122.jpg", "foto123.jpg"]
+    },
+    {
+      "title": "iPad Pro 9.7",
+      "description": "iPad Pro 9.7",
+      "code": "APPLE0104",
+      "price": 800,
+      "status": true,
+      "stock": 20,
+      "category": "Electronics",
+      "thumbnails": ["foto124.jpg", "foto125.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 2",
+      "description": "Apple Watch Series 2",
+      "code": "APPLE0205",
+      "price": 220,
+      "status": true,
+      "stock": 25,
+      "category": "Electronics",
+      "thumbnails": ["foto126.jpg", "foto127.jpg"]
+    },
+    {
+      "title": "MacBook Pro 13-inch",
+      "description": "MacBook Pro 13-inch",
+      "code": "APPLE0306",
+      "price": 1800,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto128.jpg", "foto129.jpg"]
+    },
+    {
+      "title": "AirPods 1st Gen",
+      "description": "AirPods 1st Gen",
+      "code": "APPLE0407",
+      "price": 150,
+      "status": true,
+      "stock": 35,
+      "category": "Electronics",
+      "thumbnails": ["foto130.jpg", "foto131.jpg"]
+    },
+    {
+      "title": "Magic Keyboard with Numeric Keypad",
+      "description": "Magic Keyboard with Numeric Keypad",
+      "code": "APPLE0508",
+      "price": 200,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto132.jpg", "foto133.jpg"]
+    },
+    {
+      "title": "iPhone 5s",
+      "description": "iPhone 5s",
+      "code": "APPLE0609",
+      "price": 300,
+      "status": true,
+      "stock": 18,
+      "category": "Electronics",
+      "thumbnails": ["foto134.jpg", "foto135.jpg"]
+    },
+    {
+      "title": "Apple Watch Series 1",
+      "description": "Apple Watch Series 1",
+      "code": "APPLE0710",
+      "price": 120,
+      "status": true,
+      "stock": 50,
+      "category": "Electronics",
+      "thumbnails": ["foto136.jpg", "foto137.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9",
+      "description": "iPad Pro 12.9",
+      "code": "APPLE0811",
+      "price": 1000,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto138.jpg", "foto139.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Band",
+      "description": "Apple Watch Sport Band",
+      "code": "APPLE0912",
+      "price": 50,
+      "status": true,
+      "stock": 80,
+      "category": "Accessories",
+      "thumbnails": ["foto140.jpg", "foto141.jpg"]
+    },
+    {
+      "title": "iPad Pro 11",
+      "description": "iPad Pro 11",
+      "code": "APPLE0113",
+      "price": 900,
+      "status": true,
+      "stock": 12,
+      "category": "Electronics",
+      "thumbnails": ["foto142.jpg", "foto143.jpg"]
+    },
+    {
+      "title": "Apple Watch Magnetic Charging Dock",
+      "description": "Apple Watch Magnetic Charging Dock",
+      "code": "APPLE0214",
+      "price": 80,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto144.jpg", "foto145.jpg"]
+    },
+    {
+      "title": "MacBook Pro 15-inch",
+      "description": "MacBook Pro 15-inch",
+      "code": "APPLE0315",
+      "price": 2100,
+      "status": true,
+      "stock": 6,
+      "category": "Electronics",
+      "thumbnails": ["foto146.jpg", "foto147.jpg"]
+    },
+    {
+      "title": "AirPods Max",
+      "description": "AirPods Max",
+      "code": "APPLE0416",
+      "price": 550,
+      "status": true,
+      "stock": 8,
+      "category": "Electronics",
+      "thumbnails": ["foto148.jpg", "foto149.jpg"]
+    },
+    {
+      "title": "Magic Mouse",
+      "description": "Magic Mouse",
+      "code": "APPLE0517",
+      "price": 80,
+      "status": true,
+      "stock": 20,
+      "category": "Accessories",
+      "thumbnails": ["foto150.jpg", "foto151.jpg"]
+    },
+    {
+      "title": "iPhone 4s",
+      "description": "iPhone 4s",
+      "code": "APPLE0618",
+      "price": 200,
+      "status": true,
+      "stock": 16,
+      "category": "Electronics",
+      "thumbnails": ["foto152.jpg", "foto153.jpg"]
+    },
+    {
+      "title": "Apple Watch Leather Loop",
+      "description": "Apple Watch Leather Loop",
+      "code": "APPLE0719",
+      "price": 100,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto154.jpg", "foto155.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (2nd Gen)",
+      "description": "iPad Pro 12.9 (2nd Gen)",
+      "code": "APPLE0820",
+      "price": 1100,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto156.jpg", "foto157.jpg"]
+    },
+    {
+      "title": "Apple Watch Modern Buckle",
+      "description": "Apple Watch Modern Buckle",
+      "code": "APPLE0921",
+      "price": 120,
+      "status": true,
+      "stock": 25,
+      "category": "Accessories",
+      "thumbnails": ["foto158.jpg", "foto159.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (3rd Gen)",
+      "description": "iPad Pro 12.9 (3rd Gen)",
+      "code": "APPLE0122",
+      "price": 1200,
+      "status": true,
+      "stock": 9,
+      "category": "Electronics",
+      "thumbnails": ["foto160.jpg", "foto161.jpg"]
+    },
+    {
+      "title": "Apple Watch Milanese Loop",
+      "description": "Apple Watch Milanese Loop",
+      "code": "APPLE0223",
+      "price": 80,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto162.jpg", "foto163.jpg"]
+    },
+    {
+      "title": "iPhone 4",
+      "description": "iPhone 4",
+      "code": "APPLE0324",
+      "price": 150,
+      "status": true,
+      "stock": 18,
+      "category": "Electronics",
+      "thumbnails": ["foto164.jpg", "foto165.jpg"]
+    },
+    {
+      "title": "Apple Watch Link Bracelet",
+      "description": "Apple Watch Link Bracelet",
+      "code": "APPLE0425",
+      "price": 150,
+      "status": true,
+      "stock": 20,
+      "category": "Accessories",
+      "thumbnails": ["foto166.jpg", "foto167.jpg"]
+    },
+    {
+      "title": "iPad Pro 11 (2nd Gen)",
+      "description": "iPad Pro 11 (2nd Gen)",
+      "code": "APPLE0526",
+      "price": 1000,
+      "status": true,
+      "stock": 15,
+      "category": "Electronics",
+      "thumbnails": ["foto168.jpg", "foto169.jpg"]
+    },
+    {
+      "title": "Apple Watch Classic Buckle",
+      "description": "Apple Watch Classic Buckle",
+      "code": "APPLE0627",
+      "price": 100,
+      "status": true,
+      "stock": 35,
+      "category": "Accessories",
+      "thumbnails": ["foto170.jpg", "foto171.jpg"]
+    },
+    {
+      "title": "iPad Pro 11 (3rd Gen)",
+      "description": "iPad Pro 11 (3rd Gen)",
+      "code": "APPLE0728",
+      "price": 1100,
+      "status": true,
+      "stock": 12,
+      "category": "Electronics",
+      "thumbnails": ["foto172.jpg", "foto173.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Loop",
+      "description": "Apple Watch Sport Loop",
+      "code": "APPLE0829",
+      "price": 50,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto174.jpg", "foto175.jpg"]
+    },
+    {
+      "title": "iPad Pro 11 (4th Gen)",
+      "description": "iPad Pro 11 (4th Gen)",
+      "code": "APPLE0930",
+      "price": 1200,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto176.jpg", "foto177.jpg"]
+    },
+    {
+      "title": "Apple Watch Leather Link",
+      "description": "Apple Watch Leather Link",
+      "code": "APPLE0031",
+      "price": 120,
+      "status": true,
+      "stock": 25,
+      "category": "Accessories",
+      "thumbnails": ["foto178.jpg", "foto179.jpg"]
+    },
+    {
+      "title": "iPad Pro 11 (5th Gen)",
+      "description": "iPad Pro 11 (5th Gen)",
+      "code": "APPLE0132",
+      "price": 1300,
+      "status": true,
+      "stock": 8,
+      "category": "Electronics",
+      "thumbnails": ["foto180.jpg", "foto181.jpg"]
+    },
+    {
+      "title": "Apple Watch Solo Loop",
+      "description": "Apple Watch Solo Loop",
+      "code": "APPLE0233",
+      "price": 40,
+      "status": true,
+      "stock": 60,
+      "category": "Accessories",
+      "thumbnails": ["foto182.jpg", "foto183.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (4th Gen)",
+      "description": "iPad Pro 12.9 (4th Gen)",
+      "code": "APPLE0334",
+      "price": 1400,
+      "status": true,
+      "stock": 4,
+      "category": "Electronics",
+      "thumbnails": ["foto184.jpg", "foto185.jpg"]
+    },
+    {
+      "title": "Apple Watch Braided Solo Loop",
+      "description": "Apple Watch Braided Solo Loop",
+      "code": "APPLE0435",
+      "price": 50,
+      "status": true,
+      "stock": 80,
+      "category": "Accessories",
+      "thumbnails": ["foto186.jpg", "foto187.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (5th Gen)",
+      "description": "iPad Pro 12.9 (5th Gen)",
+      "code": "APPLE0536",
+      "price": 1500,
+      "status": true,
+      "stock": 6,
+      "category": "Electronics",
+      "thumbnails": ["foto188.jpg", "foto189.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Band",
+      "description": "Apple Watch Unity Band",
+      "code": "APPLE0637",
+      "price": 100,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto190.jpg", "foto191.jpg"]
+    },
+    {
+      "title": "Apple TV",
+      "description": "Apple TV",
+      "code": "APPLE0738",
+      "price": 100,
+      "status": true,
+      "stock": 50,
+      "category": "Electronics",
+      "thumbnails": ["foto192.jpg", "foto193.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Edition",
+      "description": "Apple Watch Unity Edition",
+      "code": "APPLE0839",
+      "price": 150,
+      "status": true,
+      "stock": 25,
+      "category": "Accessories",
+      "thumbnails": ["foto194.jpg", "foto195.jpg"]
+    },
+    {
+      "title": "Apple TV HD",
+      "description": "Apple TV HD",
+      "code": "APPLE0940",
+      "price": 120,
+      "status": true,
+      "stock": 35,
+      "category": "Electronics",
+      "thumbnails": ["foto196.jpg", "foto197.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Edition Loop",
+      "description": "Apple Watch Unity Edition Loop",
+      "code": "APPLE0041",
+      "price": 60,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto198.jpg", "foto199.jpg"]
+    },
+    {
+      "title": "Apple TV 4K",
+      "description": "Apple TV 4K",
+      "code": "APPLE0142",
+      "price": 150,
+      "status": true,
+      "stock": 30,
+      "category": "Electronics",
+      "thumbnails": ["foto200.jpg", "foto201.jpg"]
+    },
+    {
+      "title": "Apple Watch Classic Unity Band",
+      "description": "Apple Watch Classic Unity Band",
+      "code": "APPLE0243",
+      "price": 80,
+      "status": true,
+      "stock": 20,
+      "category": "Accessories",
+      "thumbnails": ["foto202.jpg", "foto203.jpg"]
+    },
+    {
+      "title": "Mac Pro",
+      "description": "Mac Pro",
+      "code": "APPLE0344",
+      "price": 3000,
+      "status": true,
+      "stock": 3,
+      "category": "Electronics",
+      "thumbnails": ["foto204.jpg", "foto205.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Unity Band",
+      "description": "Apple Watch Sport Unity Band",
+      "code": "APPLE0445",
+      "price": 40,
+      "status": true,
+      "stock": 50,
+      "category": "Accessories",
+      "thumbnails": ["foto206.jpg", "foto207.jpg"]
+    },
+    {
+      "title": "Mac mini",
+      "description": "Mac mini",
+      "code": "APPLE0546",
+      "price": 700,
+      "status": true,
+      "stock": 15,
+      "category": "Electronics",
+      "thumbnails": ["foto208.jpg", "foto209.jpg"]
+    },
+    {
+      "title": "Apple Watch Modern Unity Band",
+      "description": "Apple Watch Modern Unity Band",
+      "code": "APPLE0647",
+      "price": 90,
+      "status": true,
+      "stock": 35,
+      "category": "Accessories",
+      "thumbnails": ["foto210.jpg", "foto211.jpg"]
+    },
+    {
+      "title": "MacBook Air",
+      "description": "MacBook Air",
+      "code": "APPLE0748",
+      "price": 1500,
+      "status": true,
+      "stock": 9,
+      "category": "Electronics",
+      "thumbnails": ["foto212.jpg", "foto213.jpg"]
+    },
+    {
+      "title": "Apple Watch Milanese Unity Loop",
+      "description": "Apple Watch Milanese Unity Loop",
+      "code": "APPLE0849",
+      "price": 70,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto214.jpg", "foto215.jpg"]
+    },
+    {
+      "title": "MacBook",
+      "description": "MacBook",
+      "code": "APPLE0950",
+      "price": 1800,
+      "status": true,
+      "stock": 5,
+      "category": "Electronics",
+      "thumbnails": ["foto216.jpg", "foto217.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Loop Band",
+      "description": "Apple Watch Unity Loop Band",
+      "code": "APPLE0051",
+      "price": 50,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto218.jpg", "foto219.jpg"]
+    },
+    {
+      "title": "iPad",
+      "description": "iPad",
+      "code": "APPLE0152",
+      "price": 600,
+      "status": true,
+      "stock": 20,
+      "category": "Electronics",
+      "thumbnails": ["foto220.jpg", "foto221.jpg"]
+    },
+    {
+      "title": "Apple Watch Modern Unity Loop",
+      "description": "Apple Watch Modern Unity Loop",
+      "code": "APPLE0253",
+      "price": 60,
+      "status": true,
+      "stock": 50,
+      "category": "Accessories",
+      "thumbnails": ["foto222.jpg", "foto223.jpg"]
+    },
+    {
+      "title": "iPad mini",
+      "description": "iPad mini",
+      "code": "APPLE0354",
+      "price": 500,
+      "status": true,
+      "stock": 16,
+      "category": "Electronics",
+      "thumbnails": ["foto224.jpg", "foto225.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Modern Unity Loop",
+      "description": "Apple Watch Sport Modern Unity Loop",
+      "code": "APPLE0455",
+      "price": 50,
+      "status": true,
+      "stock": 80,
+      "category": "Accessories",
+      "thumbnails": ["foto226.jpg", "foto227.jpg"]
+    },
+    {
+      "title": "iPad Pro 10.5",
+      "description": "iPad Pro 10.5",
+      "code": "APPLE0556",
+      "price": 900,
+      "status": true,
+      "stock": 15,
+      "category": "Electronics",
+      "thumbnails": ["foto228.jpg", "foto229.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Loop",
+      "description": "Apple Watch Unity Loop",
+      "code": "APPLE0657",
+      "price": 50,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto230.jpg", "foto231.jpg"]
+    },
+    {
+      "title": "iPad Pro 11",
+      "description": "iPad Pro 11",
+      "code": "APPLE0758",
+      "price": 1000,
+      "status": true,
+      "stock": 12,
+      "category": "Electronics",
+      "thumbnails": ["foto232.jpg", "foto233.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Loop Unity Edition",
+      "description": "Apple Watch Sport Loop Unity Edition",
+      "code": "APPLE0859",
+      "price": 40,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto234.jpg", "foto235.jpg"]
+    },
+    {
+      "title": "iPad Pro 11",
+      "description": "iPad Pro 11",
+      "code": "APPLE0960",
+      "price": 1100,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto236.jpg", "foto237.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Loop Unity Band",
+      "description": "Apple Watch Sport Loop Unity Band",
+      "code": "APPLE0061",
+      "price": 40,
+      "status": true,
+      "stock": 50,
+      "category": "Accessories",
+      "thumbnails": ["foto238.jpg", "foto239.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9",
+      "description": "iPad Pro 12.9",
+      "code": "APPLE0162",
+      "price": 1200,
+      "status": true,
+      "stock": 9,
+      "category": "Electronics",
+      "thumbnails": ["foto240.jpg", "foto241.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Modern Unity Band",
+      "description": "Apple Watch Sport Modern Unity Band",
+      "code": "APPLE0263",
+      "price": 50,
+      "status": true,
+      "stock": 35,
+      "category": "Accessories",
+      "thumbnails": ["foto242.jpg", "foto243.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (2nd Gen)",
+      "description": "iPad Pro 12.9 (2nd Gen)",
+      "code": "APPLE0364",
+      "price": 1100,
+      "status": true,
+      "stock": 10,
+      "category": "Electronics",
+      "thumbnails": ["foto244.jpg", "foto245.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Unity Edition",
+      "description": "Apple Watch Sport Unity Edition",
+      "code": "APPLE0465",
+      "price": 40,
+      "status": true,
+      "stock": 80,
+      "category": "Accessories",
+      "thumbnails": ["foto246.jpg", "foto247.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (3rd Gen)",
+      "description": "iPad Pro 12.9 (3rd Gen)",
+      "code": "APPLE0566",
+      "price": 1200,
+      "status": true,
+      "stock": 9,
+      "category": "Electronics",
+      "thumbnails": ["foto248.jpg", "foto249.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Edition Loop",
+      "description": "Apple Watch Unity Edition Loop",
+      "code": "APPLE0667",
+      "price": 60,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto250.jpg", "foto251.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (4th Gen)",
+      "description": "iPad Pro 12.9 (4th Gen)",
+      "code": "APPLE0768",
+      "price": 1400,
+      "status": true,
+      "stock": 4,
+      "category": "Electronics",
+      "thumbnails": ["foto252.jpg", "foto253.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Edition",
+      "description": "Apple Watch Unity Edition",
+      "code": "APPLE0869",
+      "price": 80,
+      "status": true,
+      "stock": 20,
+      "category": "Accessories",
+      "thumbnails": ["foto254.jpg", "foto255.jpg"]
+    },
+    {
+      "title": "iPad Pro 12.9 (5th Gen)",
+      "description": "iPad Pro 12.9 (5th Gen)",
+      "code": "APPLE0970",
+      "price": 1500,
+      "status": true,
+      "stock": 6,
+      "category": "Electronics",
+      "thumbnails": ["foto256.jpg", "foto257.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Band",
+      "description": "Apple Watch Unity Band",
+      "code": "APPLE0071",
+      "price": 80,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto258.jpg", "foto259.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Edition",
+      "description": "Apple Watch Unity Edition",
+      "code": "APPLE0172",
+      "price": 150,
+      "status": true,
+      "stock": 25,
+      "category": "Accessories",
+      "thumbnails": ["foto260.jpg", "foto261.jpg"]
+    },
+    {
+      "title": "MacBook Pro 16-inch",
+      "description": "MacBook Pro 16-inch",
+      "code": "APPLE0273",
+      "price": 2500,
+      "status": true,
+      "stock": 7,
+      "category": "Electronics",
+      "thumbnails": ["foto262.jpg", "foto263.jpg"]
+    },
+    {
+      "title": "Apple Watch Unity Edition Loop",
+      "description": "Apple Watch Unity Edition Loop",
+      "code": "APPLE0374",
+      "price": 70,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto264.jpg", "foto265.jpg"]
+    },
+    {
+      "title": "iPhone 5s",
+      "description": "iPhone 5s",
+      "code": "APPLE0475",
+      "price": 300,
+      "status": true,
+      "stock": 18,
+      "category": "Electronics",
+      "thumbnails": ["foto266.jpg", "foto267.jpg"]
+    },
+    {
+      "title": "Apple Watch Milanese Loop",
+      "description": "Apple Watch Milanese Loop",
+      "code": "APPLE0576",
+      "price": 80,
+      "status": true,
+      "stock": 20,
+      "category": "Accessories",
+      "thumbnails": ["foto268.jpg", "foto269.jpg"]
+    },
+    {
+      "title": "iPhone 4s",
+      "description": "iPhone 4s",
+      "code": "APPLE0677",
+      "price": 200,
+      "status": true,
+      "stock": 16,
+      "category": "Electronics",
+      "thumbnails": ["foto270.jpg", "foto271.jpg"]
+    },
+    {
+      "title": "Apple Watch Leather Link",
+      "description": "Apple Watch Leather Link",
+      "code": "APPLE0778",
+      "price": 120,
+      "status": true,
+      "stock": 25,
+      "category": "Accessories",
+      "thumbnails": ["foto272.jpg", "foto273.jpg"]
+    },
+    {
+      "title": "iPhone 4",
+      "description": "iPhone 4",
+      "code": "APPLE0879",
+      "price": 150,
+      "status": true,
+      "stock": 18,
+      "category": "Electronics",
+      "thumbnails": ["foto274.jpg", "foto275.jpg"]
+    },
+    {
+      "title": "Apple Watch Modern Buckle",
+      "description": "Apple Watch Modern Buckle",
+      "code": "APPLE0080",
+      "price": 200,
+      "status": true,
+      "stock": 30,
+      "category": "Accessories",
+      "thumbnails": ["foto276.jpg", "foto277.jpg"]
+    },
+    {
+      "title": "iPhone 3GS",
+      "description": "iPhone 3GS",
+      "code": "APPLE0181",
+      "price": 100,
+      "status": true,
+      "stock": 22,
+      "category": "Electronics",
+      "thumbnails": ["foto278.jpg", "foto279.jpg"]
+    },
+    {
+      "title": "Apple Watch Classic Buckle",
+      "description": "Apple Watch Classic Buckle",
+      "code": "APPLE0282",
+      "price": 100,
+      "status": true,
+      "stock": 35,
+      "category": "Accessories",
+      "thumbnails": ["foto280.jpg", "foto281.jpg"]
+    },
+    {
+      "title": "iPhone 3G",
+      "description": "iPhone 3G",
+      "code": "APPLE0383",
+      "price": 80,
+      "status": true,
+      "stock": 20,
+      "category": "Electronics",
+      "thumbnails": ["foto282.jpg", "foto283.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Loop",
+      "description": "Apple Watch Sport Loop",
+      "code": "APPLE0484",
+      "price": 50,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto284.jpg", "foto285.jpg"]
+    },
+    {
+      "title": "iPhone 3",
+      "description": "iPhone 3",
+      "code": "APPLE0585",
+      "price": 70,
+      "status": true,
+      "stock": 25,
+      "category": "Electronics",
+      "thumbnails": ["foto286.jpg", "foto287.jpg"]
+    },
+    {
+      "title": "Apple Watch Sport Unity Loop",
+      "description": "Apple Watch Sport Unity Loop",
+      "code": "APPLE0686",
+      "price": 50,
+      "status": true,
+      "stock": 40,
+      "category": "Accessories",
+      "thumbnails": ["foto288.jpg", "foto289.jpg"]
+    },
+    {
+      "title": "iPhone 2G",
+      "description": "iPhone 2G",
+      "code": "APPLE0787",
+      "price": 50,
+      "status": true,
+      "stock": 80,
+      "category": "Electronics",
+      "thumbnails": ["foto290.jpg", "foto291.jpg"]
+    },
+    {
+      "title": "Apple Watch Modern Unity Loop",
+      "description": "Apple Watch Modern Unity Loop",
+      "code": "APPLE0888",
+      "price": 60,
+      "status": true,
+      "stock": 35,
+      "category": "Accessories",
+      "thumbnails": ["foto292.jpg", "foto293.jpg"]
+    },
+    {
+      "title": "iPad",
+      "description": "iPad",
+      "code": "APPLE0989",
+      "price": 600,
+      "status": true,
+      "stock": 20,
+      "category": "Electronics",
+      "thumbnails": ["foto294.jpg", "foto295.jpg"]
+    }
+  ]
