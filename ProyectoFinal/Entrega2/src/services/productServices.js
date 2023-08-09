@@ -14,7 +14,7 @@ import {__dirname} from '../utils.js'
 export const addProductToCart = async(cartId, productId) => {
   try {
     const exists = await ProductDao.getProductById(productId);
-    const newProductCart = await ProductDao.addProductToCart(cartId, productId);
+    const newProductCart = await ProductDao.addProductToCart(productId, cartId);
     if(!exists) throw new Error('Product not found');
     else return newProductCart;
   } catch (error) {

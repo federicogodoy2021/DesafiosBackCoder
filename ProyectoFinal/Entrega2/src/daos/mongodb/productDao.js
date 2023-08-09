@@ -10,9 +10,6 @@ export default class ProductDaoMongoDB {
         throw new Error('Cart not found');
       }
         const product = await ProductModel.findById(productId);
-        if (!product) {
-        throw new Error('Product not found');
-      }
         cart.products.push(product);
         await cart.save();
   

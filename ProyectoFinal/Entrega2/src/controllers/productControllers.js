@@ -12,9 +12,9 @@ export const createFileController = async (req, res, next) => {
 
 export const addProductToCart = async (req, res, next) => {
   try {
-    const { idPCart } = req.params;
+    const { idCart } = req.params;
     const { idProduct } = req.params;
-    const newProductCart = await service.addProductToCart(idPCart, idProduct);
+    const newProductCart = await service.addProductToCart(idCart, idProduct);
     res.json(newProductCart);
   } catch (error) {
       next(error.message)
