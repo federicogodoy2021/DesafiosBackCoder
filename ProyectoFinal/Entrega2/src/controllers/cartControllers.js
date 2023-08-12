@@ -1,5 +1,5 @@
 import * as service from "../services/cartServices.js";
-
+//Controller para añadir un producto a un carrito
 export const addProductToCart = async (req, res, next) => {
   try {
     const { idProduct } = req.params;
@@ -10,7 +10,7 @@ export const addProductToCart = async (req, res, next) => {
       next(error.message)
   }
 }
-
+//Controller para traer un carrito por su ID
 export const getByIdCart = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -21,7 +21,7 @@ export const getByIdCart = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para dar de alta un nuevo carrito
 export const createCart = async (req, res, next) => {
   try {
     const cart = { ...req.body };
@@ -35,3 +35,22 @@ export const createCart = async (req, res, next) => {
     next(error);
   }
 };
+//Aggregations con filtro, agrupamiento y ordenamiento
+export const aggregation1 = async (req, res, next) => {
+  try {
+    //const { city } = req.query
+    const response = await service.aggregation1( /*city*/ )
+    res.json(response)
+  } catch (error) {
+    next(error.message);
+  }
+}
+//Controller para Actualizar los carritos añadiendo fecha random
+export const updateNewDate = async (req, res, next) => {
+  try {
+    const response = await service.updateNewDate()
+    res.json(response)
+  } catch (error) {
+    next(error.message);
+  }
+}

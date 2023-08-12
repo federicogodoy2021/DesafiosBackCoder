@@ -1,6 +1,8 @@
+//Utilización MongoDB como DB
 import CartDaoMongoDB from "../daos/mongodb/CartDao.js";
 const CartsDao = new CartDaoMongoDB();
 
+//Servicio para traer un carrito por su ID
 export const getByIdCart = async (id) => {
   try {
     const item = await CartsDao.getCartById(id);
@@ -10,7 +12,7 @@ export const getByIdCart = async (id) => {
     console.log(error);
   }
 };
-
+//Servicio para crear un nuevo carrito
 export const createCart = async (obj) => {
   try {
     const newCart = await CartsDao.createCart(obj);
@@ -20,7 +22,7 @@ export const createCart = async (obj) => {
     console.log(error);
   }
 };
-
+//Servicio para actualizar un carrito por su ID
 export const updateCart = async (id, obj) => {
   try {
     let item = await CartsDao.getCartById(id);
@@ -34,7 +36,7 @@ export const updateCart = async (id, obj) => {
     console.log(error);
   }
 };
-
+//Servicio para eliminar un carrito por su ID
 export const deleteCart = async (id) => {
   try {
     const cartDeleted = await CartsDao.deleteCart(id);
@@ -42,4 +44,22 @@ export const deleteCart = async (id) => {
   } catch (error) {
     console.log(error);
   }
-};
+}
+//Aggregations con filtro, agrupamiento y ordenamiento
+export const aggregation1 = async(/*city*/) => {
+   try {
+      const aggregate = await CartsDao.aggregation1(/*city*/);
+      return aggregate
+    } catch (error) {
+      console.log(error);
+    }
+}
+//Actualizar los carritos añadiendo fecha random
+export const updateNewDate = async() => {
+  try {
+    const response = CartsDao.updateNewDate()
+    return response
+  } catch (error) {
+    console.log(error);
+  }
+}

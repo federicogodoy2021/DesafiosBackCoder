@@ -1,16 +1,16 @@
+import fs from 'fs';
+import {__dirname} from '../utils.js'
+
 //Utilización MongoDB como DB
 import ProductDaoMongoDB from '../daos/mongodb/productDao.js';
 const ProductDao = new ProductDaoMongoDB();
-
-import fs from 'fs';
-import {__dirname} from '../utils.js'
 
 //Utilización de FileSystem como DB
 //import { __dirname } from "../utils.js";
 //import ProductDaoFS from "../daos/filesystem/productDao.js";
 //const ProductDao = new ProductDaoFS(__dirname + '/daos/filesystem/products.json');
 
-
+//Servicio para añadir un producto al carrito
 export const addProductToCart = async(cartId, productId) => {
   try {
     const exists = await ProductDao.getProductById(productId);
@@ -21,7 +21,7 @@ export const addProductToCart = async(cartId, productId) => {
       console.log(error);
   } 
 }
-
+//Servicio para dar de alta un lista nueva de productos
 export const createFileProducts = async () => {
     try {
       const productsFile = JSON.parse(fs.readFileSync(__dirname+'/data/products.json', 'utf-8'));
@@ -32,8 +32,8 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   }
-  
-  export const getByTitleProduct = async (title) => {
+//Servicio para traer un producto por su titulo  
+export const getByTitleProduct = async (title) => {
     try {
       const item = await ProductDao.getProductByTitle(title);
       if (!item) return false;
@@ -42,8 +42,8 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   };
-  
-  export const getByIdProduct = async (id) => {
+//Servicio para traer un producto por su ID  
+export const getByIdProduct = async (id) => {
     try {
       const item = await ProductDao.getProductById(id);
       if (!item) return false;
@@ -52,8 +52,8 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   };
-  
-  export const getByCodeProduct = async (code) => {
+//Servicio para traer un producto por su codigo  
+export const getByCodeProduct = async (code) => {
     try {
       const item = await ProductDao.getProductByCode(code);
       if (!item) return false;
@@ -62,18 +62,18 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   };
-  
-  export const getAllProducts = async () => {
+//Servicio para traer todos los productos con paginación y limite de productos por pagina  
+export const getAllProducts = async (page, limit) => {
     try {
-      const item = await ProductDao.getAllProducts();
+      const item = await ProductDao.getAllProducts(page, limit);
       if (!item) throw new Error("Product not found!");
       else return item;
     } catch (error) {
       console.log(error);
     }
   };
-  
-  export const createProduct = async (obj) => {
+//Servicio para crear un nuevo producto  
+export const createProduct = async (obj) => {
     try {
       const newProduct = await ProductDao.createProduct(obj);
       if (!newProduct) throw new Error("Validation Error!");
@@ -82,8 +82,8 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   };
-  
-  export const updateProduct = async (id, obj) => {
+//Servicio para actualizar un producto por su ID
+export const updateProduct = async (id, obj) => {
     try {
       let item = await ProductDao.getProductById(id);
       if (!item) {
@@ -96,8 +96,8 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   };
-  
-  export const deleteProduct = async (id) => {
+//Servicio para elimiar un producto por su ID  
+export const deleteProduct = async (id) => {
     try {
       const productDeleted = await ProductDao.deleteProduct(id);
       return productDeleted;
@@ -105,4 +105,13 @@ export const createFileProducts = async () => {
       console.log(error);
     }
   };
+//Aggregations con filtro, agrupamiento y ordenamiento
+export const aggregation1 = async(/*code*/) => {
+    try {
+       const aggregate = await ProductDao.aggregation1(/*code*/);
+       return aggregate
+     } catch (error) {
+       console.log(error);
+     }
+ }
   

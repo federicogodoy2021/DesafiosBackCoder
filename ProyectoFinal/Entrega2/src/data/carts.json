@@ -1,36 +1,79 @@
-[
-  {
-    "buyer": "Carlos",
-    "id": "cart1",
-    "products": [
-      {
-        "product": "2",
-        "quantity": 2
-      },
-      {
-        "product": "5",
-        "quantity": 2
-      }
-    ]
-  },
-  {
-    "buyer": "Pedro",
-    "id": "cart2",
-    "products": [
-      {
-        "product": "3",
-        "quantity": 1
-      }
-    ]
-  },
-  {
-    "buyer": "Luis",
-    "id": "cart3",
-    "products": []
-  },
-  {
-    "buyer": "Tito",
-    "id": "cart4",
-    "products": []
+[{
+  "buyer": "Luis",
+  "products": [],
+  "date": "2023-01-05",
+  "city": "Buenos Aires",
+  "promotionCode": "Alegria2023"
   }
-]
+  ,
+  {
+  "buyer": "Ana",
+  "products": [],
+  "date": "2022-07-19",
+  "city": "Córdoba",
+  "promotionCode": "VeranoFresco"
+  }
+  ,
+  {
+  "buyer": "Diego",
+  "products": [],
+  "date": "2022-11-30",
+  "city": "Mendoza",
+  "promotionCode": "Descuento123"
+  }
+  ,
+  {
+  "buyer": "Carla",
+  "products": [],
+  "date": "2023-04-12",
+  "city": "Salta",
+  "promotionCode": "OfertaAbril"
+  }
+  ,
+  {
+  "buyer": "Javier",
+  "products": [],
+  "date": "2022-05-08",
+  "city": "Mar del Plata",
+  "promotionCode": "Playa2022"
+  }
+  ,
+  {
+  "buyer": "Laura",
+  "products": [],
+  "date": "2023-02-25",
+  "city": "San Juan",
+  "promotionCode": "DescuentoL"
+  }
+  ,
+  {
+  "buyer": "Andrés",
+  "products": [],
+  "date": "2022-09-14",
+  "city": "Tucumán",
+  "promotionCode": "BienvenidaTuc"
+  }
+  ,
+  {
+  "buyer": "Valentina",
+  "products": [],
+  "date": "2023-06-20",
+  "city": "Bariloche",
+  "promotionCode": "InviernoValle"
+  }
+  ,
+  {
+  "buyer": "Martín",
+  "products": [],
+  "date": "2022-12-03",
+  "city": "Neuquén",
+  "promotionCode": "Nieve2022"
+  }
+  ,
+  {
+  "buyer": "Sofía",
+  "products": [],
+  "date": "2023-03-10",
+  "city": "La Plata",
+  "promotionCode": "PromoSofi"
+  }]

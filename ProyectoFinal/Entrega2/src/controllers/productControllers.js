@@ -1,5 +1,6 @@
 import * as service from "../services/productServices.js";
 
+//Controller para dar de alta una lista de productos
 export const createFileController = async (req, res, next) => {
   try {
     const newProducts = await service.createFileProducts();
@@ -9,7 +10,7 @@ export const createFileController = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para añadir un producto al carrito
 export const addProductToCart = async (req, res, next) => {
   try {
     const { idCart } = req.params;
@@ -20,8 +21,7 @@ export const addProductToCart = async (req, res, next) => {
       next(error.message)
   }
 }
-
-
+//Controller para traer un producto por su titulo  
 export const getByTitleController = async (req, res, next) => {
   try {
     const { title } = req.query;
@@ -32,7 +32,7 @@ export const getByTitleController = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para traer un producto por su ID  
 export const getByIdController = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -44,7 +44,7 @@ export const getByIdController = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para traer un producto por su codigo  
 export const getByCodeController = async (req, res, next) => {
   try {
     const { code } = req.params;
@@ -55,16 +55,30 @@ export const getByCodeController = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para traer todos los productos con paginación y limite de productos por pagina  
 export const getAllController = async (req, res, next) => {
   try {
-    const items = await service.getAllProducts();
-    res.json(items);
+    const { page, limit } = req.query
+    const response = await service.getAllProducts(page, limit);
+    const next = response.hasNextPage ? `http://localhost:8080/products/all?page=${response.nextPage}` : null;
+    const prev = response.hasPrevPage ? `http://localhost:8080/products/all?page=${response.prevPage}` : null;
+    const status = (response) ? "success" : "error";
+    res.json(
+      {
+      info:{
+        status: status,
+        count: response.totalDocs,
+        pages: response.totalPages,
+        next,
+        prev,
+        results: response.docs
+      }
+    });
   } catch (error) {
     next(error);
   }
 };
-
+//Controller para crear un nuevo producto  
 export const createController = async (req, res, next) => {
   try {
     const product = { ...req.body };
@@ -78,7 +92,7 @@ export const createController = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para actualizar un producto por su ID
 export const updateController = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -103,7 +117,7 @@ export const updateController = async (req, res, next) => {
     next(error);
   }
 };
-
+//Controller para elimiar un producto por su ID  
 export const deleteController = async (req, res, next) => {
   try {
     const { id } = req.params;
@@ -117,3 +131,14 @@ export const deleteController = async (req, res, next) => {
     next(error);
   }
 };
+//Aggregations con filtro, agrupamiento y ordenamiento
+export const aggregation1 = async (req, res, next) => {
+  try {
+    //const { code } = req.query
+    const response = await service.aggregation1( /*code*/ )
+    res.json(response)
+  } catch (error) {
+    next(error.message);
+  }
+}
+

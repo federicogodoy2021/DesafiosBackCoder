@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
+import mongoosePaginate from "mongoose-paginate-v2";
 
+//Esquema de productos
 const ProductSchema = new mongoose.Schema({
     title: { type: String, index: true, required: true },
     description: { type: String },
@@ -17,5 +19,6 @@ const ProductSchema = new mongoose.Schema({
 //ProductSchema.pre('find', function(){
 //    this.populate('products')
 //})
+ProductSchema.plugin(mongoosePaginate)
 
 export const ProductModel = mongoose.model('productosapples', ProductSchema);
