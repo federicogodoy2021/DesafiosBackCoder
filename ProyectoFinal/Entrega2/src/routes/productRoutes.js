@@ -8,7 +8,7 @@ router.post('/file', controller.createFileController);
 //Ruta para traer todos los productos
 router.get('/all', controller.getAllController);
 //Ruta para traer un productos por su titulo
-router.get('/', controller.getByTitleController);
+router.get('/title/:title', controller.getByTitleController);
 //Ruta para traer un productos por su ID
 router.get('/id/:id', controller.getByIdController);
 //Ruta para traer un productos por su codigo

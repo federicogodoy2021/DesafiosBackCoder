@@ -63,9 +63,9 @@ export const getByCodeProduct = async (code) => {
     }
   };
 //Servicio para traer todos los productos con paginación y limite de productos por pagina  
-export const getAllProducts = async (page, limit) => {
+export const getAllProducts = async (page, limit, code) => {
     try {
-      const item = await ProductDao.getAllProducts(page, limit);
+      const item = await ProductDao.getAllProducts(page, limit, code);
       if (!item) throw new Error("Product not found!");
       else return item;
     } catch (error) {
@@ -106,9 +106,9 @@ export const deleteProduct = async (id) => {
     }
   };
 //Aggregations con filtro, agrupamiento y ordenamiento
-export const aggregation1 = async(/*code*/) => {
+export const aggregation1 = async(code, category, description, title, status) => {
     try {
-       const aggregate = await ProductDao.aggregation1(/*code*/);
+       const aggregate = await ProductDao.aggregation1(code, category, description, title, status);
        return aggregate
      } catch (error) {
        console.log(error);

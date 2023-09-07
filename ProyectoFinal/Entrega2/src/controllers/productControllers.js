@@ -24,7 +24,7 @@ export const addProductToCart = async (req, res, next) => {
 //Controller para traer un producto por su titulo  
 export const getByTitleController = async (req, res, next) => {
   try {
-    const { title } = req.query;
+    const { title } = req.params;
     const item = await service.getByTitleProduct(title);
     if (!item) throw new Error("Product not found!");
     res.json(item);
@@ -58,8 +58,8 @@ export const getByCodeController = async (req, res, next) => {
 //Controller para traer todos los productos con paginación y limite de productos por pagina  
 export const getAllController = async (req, res, next) => {
   try {
-    const { page, limit } = req.query
-    const response = await service.getAllProducts(page, limit);
+    const { page, limit, category, code} = req.query
+    const response = await service.getAllProducts(page, limit, category, code);
     const next = response.hasNextPage ? `http://localhost:8080/products/all?page=${response.nextPage}` : null;
     const prev = response.hasPrevPage ? `http://localhost:8080/products/all?page=${response.prevPage}` : null;
     const status = (response) ? "success" : "error";
@@ -98,7 +98,7 @@ export const updateController = async (req, res, next) => {
     const { id } = req.params;
     const { title, description, price, stock } = req.body;
 
-    let item = await getByIdProduct(id);
+    let item = await service.getByIdProduct(id);
 
     if (!item) throw new Error("Product not found!");
 
@@ -134,8 +134,8 @@ export const deleteController = async (req, res, next) => {
 //Aggregations con filtro, agrupamiento y ordenamiento
 export const aggregation1 = async (req, res, next) => {
   try {
-    //const { code } = req.query
-    const response = await service.aggregation1( /*code*/ )
+    const { code, category, description, title, status } = req.query
+    const response = await service.aggregation1( code, category, description, title, status )
     res.json(response)
   } catch (error) {
     next(error.message);

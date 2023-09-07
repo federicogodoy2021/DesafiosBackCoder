@@ -76,25 +76,26 @@ export default class ProductDaoMongoDB {
     }
   }
   //Aggregations con filtro, agrupamiento y ordenamiento
-  async aggregation1(/*code*/){
+  async aggregation1(code, category, description, title, status){
     try {
      const response = await ProductModel.aggregate([
         {
-        $match: { 
-          //code: `${code}`,
-          category: "Electronics"
+        $match: {
+          category: `${category}`,
         }
         },
         {
         $group: {
-          _id: 'category',
-          //averageCity: {$avg: '$city'}
+          _id: '$status',
+          avgStock: {$avg: '$stock'},
+          maxPrice: {$max: '$price'},
+          minPrice: {$min: '$price'},
           count:{$sum: 1}
 
-        } //,
-        //$sort: {
-          //average_age: 1
-        //}
+        }},{
+          $sort:{
+          price: 1
+        }
       }
       ])
       return response
@@ -103,10 +104,9 @@ export default class ProductDaoMongoDB {
     }
   }
   //Traer todos los productos con metodo de paginación
-  async getAllProducts(page = 1, limit = 10) {
+  async getAllProducts(page = 1, limit = 10, code) {
     try {
-
-      const response = await ProductModel.paginate({},{ page, limit })
+      const response = await ProductModel.paginate({},{page, limit, code});
       return response;
     } catch (error) {
       console.log(error);
