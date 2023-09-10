@@ -54,3 +54,49 @@ export const updateNewDate = async (req, res, next) => {
     next(error.message);
   }
 }
+
+// Eliminar un producto del carrito
+export const deleteProductFromCart = async (req, res, next) => {
+  try {
+    const { pid, cid } = req.params;
+    const updatedCart = await service.deleteProductFromCart(cid, pid);
+    res.json(updatedCart);
+  } catch (error) {
+    next(error.message);
+  }
+}
+
+// Actualizar el carrito con un arreglo de productos
+export const updateCart = async (req, res, next) => {
+  try {
+    const { cid } = req.params;
+    const { products } = req.body;
+    const updatedCart = await service.updateProductsOnCart(cid, products);
+    res.json(updatedCart);
+  } catch (error) {
+    next(error.message);
+  }
+}
+
+// Actualizar la cantidad de ejemplares de un producto en el carrito
+export const updateProductQuantity = async (req, res, next) => {
+  try {
+    const { pid, cid } = req.params;
+    const { quantity } = req.body;
+    const updatedCart = await service.updateProductQuantity(cid, pid, quantity);
+    res.json(updatedCart);
+  } catch (error) {
+    next(error.message);
+  }
+}
+
+// Eliminar todos los productos del carrito
+export const deleteAllProductsFromCart = async (req, res, next) => {
+  try {
+    const { cid } = req.params;
+    const updatedCart = await service.deleteAllProductsFromCart(cid);
+    res.json(updatedCart);
+  } catch (error) {
+    next(error.message);
+  }
+}

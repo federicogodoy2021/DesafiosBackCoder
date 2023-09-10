@@ -10,6 +10,14 @@ router.get('/:id', controller.getByIdCart);
 router.get('/ag/aggregation1', controller.aggregation1)
 //Ruta para Actualizar los carritos añadiendo fecha random
 router.put('/updatedocs', controller.updateNewDate)
+//Eliminar un producto del carrito
+router.delete('/:cid/products/:pid', controller.deleteProductFromCart);
+//Actualizar el carrito con un arreglo de productos
+router.put('/:cid', controller.updateCart);
+//Actualizar la cantidad de ejemplares de un producto en el carrito
+router.put('/:cid/products/:pid', controller.updateProductQuantity);
+//Eliminar todos los productos del carrito
+router.delete('/:cid', controller.deleteAllProductsFromCart);
 
 export default router;
 

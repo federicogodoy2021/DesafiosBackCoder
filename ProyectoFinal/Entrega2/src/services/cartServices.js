@@ -63,3 +63,43 @@ export const updateNewDate = async() => {
     console.log(error);
   }
 }
+
+// Eliminar un producto del carrito
+export const deleteProductFromCart = async (cid, pid) => {
+  try {
+    const cart = await CartsDao.deleteProductFromCart(cid, pid);
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Actualizar el carrito con un arreglo de productos
+export const updateProductsOnCart = async (cid, products) => {
+  try {
+    const cart = await CartsDao.updateProductsOnCart(cid, products);
+    return cart;
+  } catch (error) {
+     console.log(error);
+  }
+}
+
+// Actualizar la cantidad de ejemplares de un producto en el carrito
+export const updateProductQuantity = async (cid, pid, quantity) => {
+  try {
+    const cart = await CartsDao.updateProductQuantity(cid, pid, quantity);
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Eliminar todos los productos del carrito
+export const deleteAllProductsFromCart = async (cid) => {
+  try {
+    const cart = await CartsDao.deleteAllProductsFromCart(cid);
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}

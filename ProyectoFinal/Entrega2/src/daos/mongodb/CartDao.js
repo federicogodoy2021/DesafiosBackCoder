@@ -89,4 +89,54 @@ export default class CartDaoMongoDB {
     console.log(error);
   }
 }
+
+// Eliminar un producto del carrito
+async deleteProductFromCart(cid, pid) {
+  try {
+    const cart = await CartModel.findById(cid);
+    cart.products.pull(pid);
+    await cart.save();
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Actualizar el carrito con un arreglo de productos
+async updateProductsOnCart(cid, products) {
+  try {
+    const cart = await CartModel.findByIdAndUpdate(cid, { products }, { new: true });
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Actualizar la cantidad de ejemplares de un producto en el carrito
+async updateProductQuantity(cid, pid, quantity) {
+  try {
+    const cart = await CartModel.findById(cid);
+    const productInCart = cart.products.find((product) => product._id.equals(pid));
+    
+    if (productInCart) {
+      productInCart.quantity = quantity;
+      await cart.save();
+    }
+
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// Eliminar todos los productos del carrito
+async deleteAllProductsFromCart(cid) {
+  try {
+    const cart = await CartModel.findByIdAndUpdate(cid, { products: [] }, { new: true });
+    return cart;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 }
